@@ -14,13 +14,13 @@ module.exports = {
 
             let msg = new Discord.MessageEmbed() 
             .setColor('#ff58c3') 
-.setTitle(`Banner solicitado`)
+            .setTitle(`Banner solicitado`)
             .setImage(`https://cdn.discordapp.com/banners/${user.id}/${B.banner}.png?size=512`) 
             .setFooter(`Comando requisitado por: ${message.author.tag}`, message.author.displayAvatarURL({format: "png"}));
 
             let gif = new Discord.MessageEmbed() 
             .setColor("#ff58c3")
-.setTitle(`Banner solicitado`) 
+            .setTitle(`Banner solicitado`) 
             .setImage(`https://cdn.discordapp.com/banners/${user.id}/${B.banner}.gif?size=512`) 
             .setFooter(`${message.author.tag}`, message.author.displayAvatarURL({format: "png"}));
 
